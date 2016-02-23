@@ -582,28 +582,7 @@ Author: Alexandre Bourlier
   display: none !important;
 }
 
-/* line 5, ../scss/breakpoints/_wufoo_mobile.scss */
-form {
-  background-color: red;
-}
-/* line 9, ../scss/breakpoints/_wufoo_mobile.scss */
-form > ul li {
-  width: 100% !important;
-}
-/* line 12, ../scss/breakpoints/_wufoo_mobile.scss */
-form > ul li #title1 {
+/* line 6, ../scss/breakpoints/_wufoo_mobile.scss */
+form #title1 {
   color: blue;
-}
-/* line 16, ../scss/breakpoints/_wufoo_mobile.scss */
-form > ul li > label {
-  display: block;
-}
-/* line 21, ../scss/breakpoints/_wufoo_mobile.scss */
-form > ul li span label {
-  display: none;
-}
-/* line 25, ../scss/breakpoints/_wufoo_mobile.scss */
-form > ul li span input, form > ul li span textarea {
-  border: 1px solid black;
-  width: 100%;
 }

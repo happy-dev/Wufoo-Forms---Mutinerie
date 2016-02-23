@@ -3,30 +3,7 @@
 }
 
 form { 
-  background-color: red;
-
-  & > ul {
-    li {
-      width:    100% !important;
-
-      #title1 {
-        color:  blue;
-      }
-
-      & > label {
-        display:  block;
-      }
-
-      span {
-        label {
-          display:  none;
-        }
-
-        input, textarea {
-          border:   1px solid black;
-          width:    100%;
-        }
-      }
-    }
+  #title1 {
+    color:  blue;
   }
 }
