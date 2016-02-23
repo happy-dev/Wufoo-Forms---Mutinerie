@@ -591,8 +591,8 @@ form > ul li {
   width: 100% !important;
 }
 /* line 12, ../scss/breakpoints/_wufoo_mobile.scss */
-form > ul li #Field1 {
-  background-color: grey;
+form > ul li #title1 {
+  color: blue;
 }
 /* line 16, ../scss/breakpoints/_wufoo_mobile.scss */
 form > ul li > label {
