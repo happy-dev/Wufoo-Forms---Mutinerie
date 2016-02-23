@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/******************************************************************
+Site Name: www.mutinerie.org
+Author: Alexandre BOURLIER
+******************************************************************/
+
+
+@import "compass/utilities/sprites";
+@import "compass/utilities/general";
+@import "compass/css3";
+@import "specials/normalize";
+@import "specials/variables";
+@import "specials/fonts";
+@import "breakpoints/wufoo_mobile";
+
+
+@media only screen and (min-width: 768px) {
+  @import "breakpoints/wufoo_tablet";
+}
+
+
+@media only screen and (min-width: 1024px) {
+  @import "breakpoints/wufoo_laptop";
+}
+

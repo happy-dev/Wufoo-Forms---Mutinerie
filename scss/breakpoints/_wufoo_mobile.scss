@@ -1,0 +1,32 @@
+#header {
+  display:  none !important;
+}
+
+form { 
+  background-color: red;
+
+  & > ul {
+    li {
+      width:    100% !important;
+
+      #Field1 {
+        background-color: grey;
+      }
+
+      & > label {
+        display:  block;
+      }
+
+      span {
+        label {
+          display:  none;
+        }
+
+        input, textarea {
+          border:   1px solid black;
+          width:    100%;
+        }
+      }
+    }
+  }
+}
