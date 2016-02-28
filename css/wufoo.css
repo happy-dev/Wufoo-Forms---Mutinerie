@@ -607,8 +607,17 @@ form.wufoo li span {
 form.wufoo li span:last-child {
   margin-left: 0.999999%;
 }
-/* line 26, ../scss/breakpoints/_wufoo_mobile.scss */
+/* line 25, ../scss/breakpoints/_wufoo_mobile.scss */
+form.wufoo li span.subfield {
+  width: 100%;
+}
+/* line 28, ../scss/breakpoints/_wufoo_mobile.scss */
+form.wufoo li span.subfield:last-child {
+  margin-left: 0;
+}
+/* line 34, ../scss/breakpoints/_wufoo_mobile.scss */
 form.wufoo li input[type="text"],
+form.wufoo li input[type="email"],
 form.wufoo li input[type="password"],
 form.wufoo li input[type="tel"],
 form.wufoo li input[type="date"],
@@ -622,11 +631,11 @@ form.wufoo li textarea {
   width: 100% !important;
   border: 1px solid black;
 }
-/* line 41, ../scss/breakpoints/_wufoo_mobile.scss */
+/* line 50, ../scss/breakpoints/_wufoo_mobile.scss */
 form.wufoo li input[type="submit"] {
   float: right;
 }
-/* line 45, ../scss/breakpoints/_wufoo_mobile.scss */
+/* line 54, ../scss/breakpoints/_wufoo_mobile.scss */
 form.wufoo li fieldset {
   border: none;
   margin: 0;

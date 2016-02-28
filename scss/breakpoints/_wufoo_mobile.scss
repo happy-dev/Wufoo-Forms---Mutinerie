@@ -21,9 +21,18 @@ form {
         &:last-child {
           margin-left: 0.999999%;
         }
+
+        &.subfield {
+          width:  100%;
+
+          &:last-child {
+            margin-left: 0;
+          }
+        }
       }
 
       input[type="text"],
+      input[type="email"],
       input[type="password"],
       input[type="tel"],
       input[type="date"],
