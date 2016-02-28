@@ -5,6 +5,14 @@
 form { 
   &.wufoo {
     background-color: red;
+
+    #header {
+      display:  none;
+    }
+
+    ul {
+      background-color: pink;
+    }
   }
 
   label {

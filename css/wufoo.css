@@ -586,11 +586,19 @@ Author: Alexandre Bourlier
 form.wufoo {
   background-color: red;
 }
-/* line 10, ../scss/breakpoints/_wufoo_mobile.scss */
+/* line 9, ../scss/breakpoints/_wufoo_mobile.scss */
+form.wufoo #header {
+  display: none;
+}
+/* line 13, ../scss/breakpoints/_wufoo_mobile.scss */
+form.wufoo ul {
+  background-color: pink;
+}
+/* line 18, ../scss/breakpoints/_wufoo_mobile.scss */
 form label {
   color: red !important;
 }
-/* line 13, ../scss/breakpoints/_wufoo_mobile.scss */
+/* line 21, ../scss/breakpoints/_wufoo_mobile.scss */
 form #title1 {
   color: blue !important;
 }
