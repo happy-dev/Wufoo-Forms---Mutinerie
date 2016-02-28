@@ -656,6 +656,6 @@ form.wufoo li fieldset {
   /* line 2, ../scss/breakpoints/_wufoo_tablet.scss */
   form.wufoo {
     width: 500px;
-    margin: auto;
+    margin: auto !important;
   }
 }
