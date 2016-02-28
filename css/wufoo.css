@@ -583,10 +583,14 @@ Author: Alexandre Bourlier
 }
 
 /* line 6, ../scss/breakpoints/_wufoo_mobile.scss */
+form .wufoo {
+  background-color: red;
+}
+/* line 10, ../scss/breakpoints/_wufoo_mobile.scss */
 form label {
   color: red !important;
 }
-/* line 9, ../scss/breakpoints/_wufoo_mobile.scss */
+/* line 13, ../scss/breakpoints/_wufoo_mobile.scss */
 form #title1 {
   color: blue !important;
 }
