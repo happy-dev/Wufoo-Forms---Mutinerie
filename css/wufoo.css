@@ -638,7 +638,6 @@ form.wufoo li textarea {
 }
 /* line 55, ../scss/breakpoints/_wufoo_mobile.scss */
 form.wufoo li input[type="submit"] {
-  float: right;
   padding: 7px 11px;
   background-color: black;
   color: white;
@@ -646,9 +645,17 @@ form.wufoo li input[type="submit"] {
   text-transform: uppercase;
   border: none;
 }
-/* line 65, ../scss/breakpoints/_wufoo_mobile.scss */
+/* line 64, ../scss/breakpoints/_wufoo_mobile.scss */
 form.wufoo li fieldset {
   border: none;
   margin: 0;
   padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 2, ../scss/breakpoints/_wufoo_tablet.scss */
+  form.wufoo {
+    width: 500px;
+    margin: auto;
+  }
 }
