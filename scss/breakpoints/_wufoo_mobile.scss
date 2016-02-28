@@ -10,20 +10,43 @@ form {
       display:  none;
     }
 
-    input,
-    textarea {
-      width:  100%;
-      border: 1px solid black;
-    }
+    li {
+      width:  100% !important;
 
-    span > input {
-      width:  48%;
-    }
+      span {
+        @include inline-block;
+        margin: 0;
+        width:  49%;
 
-    fieldset {
-      border:   none;
-      margin:   0;
-      padding:  0;
+        &:last-child {
+          margin-left: 0.999999%;
+        }
+      }
+
+      input[type="text"],
+      input[type="password"],
+      input[type="tel"],
+      input[type="date"],
+      input[type="datetime"],
+      input[type="file"],
+      input[type="image"],
+      input[type="number"],
+      input[type="url"],
+      input[type="search"],
+      textarea {
+        width:  100% !important;
+        border: 1px solid black;
+      }
+
+      input[type="submit"] {
+        float:  right;
+      }
+
+      fieldset {
+        border:   none;
+        margin:   0;
+        padding:  0;
+      }
     }
   }
 }

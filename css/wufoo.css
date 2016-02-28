@@ -590,17 +590,44 @@ form.wufoo #header {
   display: none;
 }
 /* line 13, ../scss/breakpoints/_wufoo_mobile.scss */
-form.wufoo input,
-form.wufoo textarea {
-  width: 100%;
+form.wufoo li {
+  width: 100% !important;
+}
+/* line 16, ../scss/breakpoints/_wufoo_mobile.scss */
+form.wufoo li span {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  margin: 0;
+  width: 49%;
+}
+/* line 21, ../scss/breakpoints/_wufoo_mobile.scss */
+form.wufoo li span:last-child {
+  margin-left: 0.999999%;
+}
+/* line 26, ../scss/breakpoints/_wufoo_mobile.scss */
+form.wufoo li input[type="text"],
+form.wufoo li input[type="password"],
+form.wufoo li input[type="tel"],
+form.wufoo li input[type="date"],
+form.wufoo li input[type="datetime"],
+form.wufoo li input[type="file"],
+form.wufoo li input[type="image"],
+form.wufoo li input[type="number"],
+form.wufoo li input[type="url"],
+form.wufoo li input[type="search"],
+form.wufoo li textarea {
+  width: 100% !important;
   border: 1px solid black;
 }
-/* line 19, ../scss/breakpoints/_wufoo_mobile.scss */
-form.wufoo span > input {
-  width: 48%;
+/* line 41, ../scss/breakpoints/_wufoo_mobile.scss */
+form.wufoo li input[type="submit"] {
+  float: right;
 }
-/* line 23, ../scss/breakpoints/_wufoo_mobile.scss */
-form.wufoo fieldset {
+/* line 45, ../scss/breakpoints/_wufoo_mobile.scss */
+form.wufoo li fieldset {
   border: none;
   margin: 0;
   padding: 0;
