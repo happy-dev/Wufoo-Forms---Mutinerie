@@ -1,7 +1,29 @@
 form { 
   &.wufoo {
+    width:  100%;
+
+    * {
+      box-sizing: border-box;
+    }
+
     #header {
       display:  none;
+    }
+
+    input,
+    textarea {
+      width:  100%;
+      border: 1px solid black;
+    }
+
+    span > input {
+      width:  48%;
+    }
+
+    fieldset {
+      border:   none;
+      margin:   0;
+      padding:  0;
     }
   }
 }

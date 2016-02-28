@@ -577,7 +577,31 @@ dd {
 Site Name: Mutinerie
 Author: Alexandre Bourlier
 ******************************************************************/
-/* line 3, ../scss/breakpoints/_wufoo_mobile.scss */
+/* line 2, ../scss/breakpoints/_wufoo_mobile.scss */
+form.wufoo {
+  width: 100%;
+}
+/* line 5, ../scss/breakpoints/_wufoo_mobile.scss */
+form.wufoo * {
+  box-sizing: border-box;
+}
+/* line 9, ../scss/breakpoints/_wufoo_mobile.scss */
 form.wufoo #header {
   display: none;
+}
+/* line 13, ../scss/breakpoints/_wufoo_mobile.scss */
+form.wufoo input,
+form.wufoo textarea {
+  width: 100%;
+  border: 1px solid black;
+}
+/* line 19, ../scss/breakpoints/_wufoo_mobile.scss */
+form.wufoo span > input {
+  width: 48%;
+}
+/* line 23, ../scss/breakpoints/_wufoo_mobile.scss */
+form.wufoo fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
 }
