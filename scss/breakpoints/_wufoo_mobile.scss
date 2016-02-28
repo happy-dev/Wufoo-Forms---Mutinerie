@@ -1,24 +1,7 @@
-#header {
-  display:  none !important;
-}
-
 form { 
   &.wufoo {
-    background-color: red;
-
     #header {
       display:  none;
     }
-
-    ul {
-      background-color: pink;
-    }
-  }
-
-  label {
-    color:  red !important;
-  }
-  #title1 {
-    color:  blue !important;
   }
 }
