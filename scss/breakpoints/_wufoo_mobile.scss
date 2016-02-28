@@ -3,7 +3,10 @@
 }
 
 form { 
+  label {
+    color:  red !important;
+  }
   #title1 {
-    color:  blue;
+    color:  blue !important;
   }
 }
