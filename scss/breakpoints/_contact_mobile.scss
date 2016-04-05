@@ -1,0 +1,24 @@
+form.wufoo {
+  * {
+    box-sizing: border-box;
+  }
+
+  li {
+    label {
+      display:      block;
+      text-align:   left;
+    }
+
+    div {
+      &, input {
+        width:  100%;
+      }
+    }
+
+    fieldset {
+      legend {
+        width:  100%;
+      }
+    }
+  }
+}
