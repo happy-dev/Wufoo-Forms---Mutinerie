@@ -614,6 +614,10 @@ form.wufoo li.buttons div button {
   float: none !important;
   margin-top: 20px;
 }
+/* line 45, ../scss/breakpoints/_contact_mobile.scss */
+form.wufoo li.date span {
+  width: initial !important;
+}
 
 /* line 2, ../scss/breakpoints/_wufoo_mobile.scss */
 form.wufoo {
@@ -639,7 +643,7 @@ form.wufoo li span {
   *zoom: 1;
   *display: inline;
   margin: 0;
-  width: 49%;
+  width: 49.4999%;
 }
 /* line 21, ../scss/breakpoints/_wufoo_mobile.scss */
 form.wufoo li span:last-child {

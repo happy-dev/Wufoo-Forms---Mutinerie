@@ -29,7 +29,7 @@ form.wufoo {
     }
 
     &.buttons {
-      padding-left:   0px !important;
+      padding-left:     0px !important;
 
       div {
         margin:         0px !important;
@@ -38,6 +38,12 @@ form.wufoo {
           float:        none !important;
           margin-top:   20px;
         }
+      }
+    }
+
+    &.date {
+      span {
+        width:  initial !important;
       }
     }
   }
