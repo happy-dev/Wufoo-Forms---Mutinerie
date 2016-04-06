@@ -6,7 +6,8 @@ form.wufoo {
   li {
     label {
       display:      block;
-      text-align:   left;
+      text-align:   left !important;
+      float:        none !important;
     }
 
     div {
@@ -17,7 +18,7 @@ form.wufoo {
 
     fieldset {
       legend {
-        width:  100%;
+        width:  100% !important;
       }
     }
   }

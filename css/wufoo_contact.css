@@ -584,15 +584,16 @@ form.wufoo * {
 /* line 7, ../scss/breakpoints/_contact_mobile.scss */
 form.wufoo li label {
   display: block;
-  text-align: left;
+  text-align: left !important;
+  float: none !important;
 }
-/* line 13, ../scss/breakpoints/_contact_mobile.scss */
+/* line 14, ../scss/breakpoints/_contact_mobile.scss */
 form.wufoo li div, form.wufoo li div input {
   width: 100%;
 }
-/* line 19, ../scss/breakpoints/_contact_mobile.scss */
+/* line 20, ../scss/breakpoints/_contact_mobile.scss */
 form.wufoo li fieldset legend {
-  width: 100%;
+  width: 100% !important;
 }
 
 /* line 2, ../scss/breakpoints/_wufoo_mobile.scss */
