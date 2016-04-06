@@ -27,5 +27,15 @@ form.wufoo {
         text-align:   left !important;
       }
     }
+
+    &.buttons {
+      padding-left:   0px !important;
+      margin:         0px !important;
+
+      button {
+        float:        none !important;
+        margin-top:   20px;
+      }
+    }
   }
 }
