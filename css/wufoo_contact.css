@@ -604,10 +604,13 @@ form.wufoo li fieldset legend {
 /* line 31, ../scss/breakpoints/_contact_mobile.scss */
 form.wufoo li.buttons {
   padding-left: 0px !important;
+}
+/* line 34, ../scss/breakpoints/_contact_mobile.scss */
+form.wufoo li.buttons div {
   margin: 0px !important;
 }
-/* line 35, ../scss/breakpoints/_contact_mobile.scss */
-form.wufoo li.buttons button {
+/* line 37, ../scss/breakpoints/_contact_mobile.scss */
+form.wufoo li.buttons div button {
   float: none !important;
   margin-top: 20px;
 }

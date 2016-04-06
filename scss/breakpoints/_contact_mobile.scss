@@ -30,11 +30,14 @@ form.wufoo {
 
     &.buttons {
       padding-left:   0px !important;
-      margin:         0px !important;
 
-      button {
-        float:        none !important;
-        margin-top:   20px;
+      div {
+        margin:         0px !important;
+
+        button {
+          float:        none !important;
+          margin-top:   20px;
+        }
       }
     }
   }
