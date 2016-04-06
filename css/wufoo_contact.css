@@ -693,3 +693,10 @@ form.wufoo li fieldset {
   margin: 0;
   padding: 0;
 }
+
+@media only screen and (min-width: 1024px) {
+  /* line 3, ../scss/breakpoints/_contact_laptop.scss */
+  form.wufoo li.buttons {
+    padding: 6px 1% 9px;
+  }
+}
